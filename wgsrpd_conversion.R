@@ -78,32 +78,31 @@ wgsrpd_conversion <-function(wgsrpd_regions, format){
           sub_df$ISO[k]<-"NA"
           
         }
-        
       }
     }
     
-    if(tolower(format)="continent code"){
+    if(tolower(format)=="continent code"){
       country_list<-unique(sub_df$Cont_code)
     }
-    if(tolower(format)="continent"){
+    if(tolower(format)=="continent"){
       country_list<-unique(sub_df$Continent)
     }
-    if(tolower(format)="sub continent code"){
+    if(tolower(format)=="sub continent code"){
       country_list<-unique(sub_df$Sub_cont_code)
     }
-    if(tolower(format)="sub continent"){
+    if(tolower(format)=="sub continent"){
       country_list<-unique(sub_df$Sub_cont)
     }
-    if(tolower(format)="region"){
+    if(tolower(format)=="region"){
       country_list<-unique(sub_df$Region)
     }
-    if(format="isocode5"){
+    if(format=="isocode5"){
       country_list<-unique(sub_df$X5Letter)
     }
-    if(tolower(format)="country"){
+    if(tolower(format)=="country"){
       country_list<-unique(sub_df$Country)
     }
-    if(format="isocode2"){
+    if(format=="isocode2"){
       country_list<-unique(sub_df$ISO)
     }
     
