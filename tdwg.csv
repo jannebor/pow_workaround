@@ -1,0 +1,610 @@
+Cont_code,Continent,Sub_cont_code,Sub_cont,Region,5Letter,Country,ISO
+1,EUROPE,10,Northern Europe,Denmark,DEN-OO,Denmark,DK
+1,EUROPE,10,Northern Europe,Finland,FIN-OO,Finland,FI
+1,EUROPE,10,Northern Europe,Føroyar,FOR-OO,Føroyar,FO
+1,EUROPE,10,Northern Europe,Great Britain,GRB-OO,Great Britain,GB
+1,EUROPE,10,Northern Europe,Iceland,ICE-OO,Iceland,IS
+1,EUROPE,10,Northern Europe,Ireland,IRE-IR,Ireland,IE
+1,EUROPE,10,Northern Europe,Ireland,IRE-NI,Northern Ireland,IE
+1,EUROPE,10,Northern Europe,Norway,NOR-OO,Norway,NO
+1,EUROPE,10,Northern Europe,Svalbard,SVA-OO,Svalbard,SJ
+1,EUROPE,10,Northern Europe,Sweden,SWE-OO,Sweden,SE
+1,EUROPE,11,Middle Europe,Austria,AUT-AU,Austria,AT
+1,EUROPE,11,Middle Europe,Austria,AUT-LI,Liechtenstein,LI
+1,EUROPE,11,Middle Europe,Belgium,BGM-BE,Belgium,BE
+1,EUROPE,11,Middle Europe,Belgium,BGM-LU,Luxembourg,LU
+1,EUROPE,11,Middle Europe,Czechoslovakia,CZE-CZ,Czech Republic,CZ
+1,EUROPE,11,Middle Europe,Czechoslovakia,CZE-SL,Slovakia,SK
+1,EUROPE,11,Middle Europe,Germany,GER-OO,Germany,DE
+1,EUROPE,11,Middle Europe,Hungary,HUN-OO,Hungary,HU
+1,EUROPE,11,Middle Europe,Netherlands,NET-OO,Netherlands,NL
+1,EUROPE,11,Middle Europe,Poland,POL-OO,Poland,PL
+1,EUROPE,11,Middle Europe,Switzerland,SWI-OO,Switzerland,CH
+1,EUROPE,12,Southwestern Europe,Baleares,BAL-OO,Baleares,ES
+1,EUROPE,12,Southwestern Europe,Corse,COR-OO,Corse,FR
+1,EUROPE,12,Southwestern Europe,France,FRA-CI,Channel Is.,GB
+1,EUROPE,12,Southwestern Europe,France,FRA-FR,France,FR
+1,EUROPE,12,Southwestern Europe,France,FRA-MO,Monaco,MC
+1,EUROPE,12,Southwestern Europe,Portugal,POR-OO,Portugal,PT
+1,EUROPE,12,Southwestern Europe,Sardegna,SAR-OO,Sardegna,IT
+1,EUROPE,12,Southwestern Europe,Spain,SPA-AN,Andorra,AD
+1,EUROPE,12,Southwestern Europe,Spain,SPA-GI,Gibraltar,GI
+1,EUROPE,12,Southwestern Europe,Spain,SPA-SP,Spain,ES
+1,EUROPE,13,Southeastern Europe,Albania,ALB-OO,Albania,AL
+1,EUROPE,13,Southeastern Europe,Bulgaria,BUL-OO,Bulgaria,BG
+1,EUROPE,13,Southeastern Europe,Greece,GRC-OO,Greece,GR
+1,EUROPE,13,Southeastern Europe,Italy,ITA-IT,Italy,IT
+1,EUROPE,13,Southeastern Europe,Italy,ITA-SM,San Marino,SM
+1,EUROPE,13,Southeastern Europe,Italy,ITA-VC,Vatican City,VA
+1,EUROPE,13,Southeastern Europe,Kriti,KRI-OO,Kriti,GR
+1,EUROPE,13,Southeastern Europe,Romania,ROM-OO,Romania,RO
+1,EUROPE,13,Southeastern Europe,Sicilia,SIC-MA,Malta,MT
+1,EUROPE,13,Southeastern Europe,Sicilia,SIC-SI,Sicilia,IT
+1,EUROPE,13,Southeastern Europe,Turkey-in-Europe,TUE-OO,Turkey-in-Europe,TR
+1,EUROPE,13,Southeastern Europe,Yugoslavia,YUG-BH,Bosnia-Herzegovina,BA
+1,EUROPE,13,Southeastern Europe,Yugoslavia,YUG-CR,Croatia,HR
+1,EUROPE,13,Southeastern Europe,Yugoslavia,YUG-KO,Kosovo,RS
+1,EUROPE,13,Southeastern Europe,Yugoslavia,YUG-MA,Macedonia,MK
+1,EUROPE,13,Southeastern Europe,Yugoslavia,YUG-MN,Montenegro,ME
+1,EUROPE,13,Southeastern Europe,Yugoslavia,YUG-SE,Serbia,RS
+1,EUROPE,13,Southeastern Europe,Yugoslavia,YUG-SL,Slovenia,SI
+1,EUROPE,14,Eastern Europe,Belarus,BLR-OO,Belarus,BY
+1,EUROPE,14,Eastern Europe,Baltic States,BLT-ES,Estonia,EE
+1,EUROPE,14,Eastern Europe,Baltic States,BLT-KA,Kaliningrad,RU
+1,EUROPE,14,Eastern Europe,Baltic States,BLT-LA,Latvia,RU
+1,EUROPE,14,Eastern Europe,Baltic States,BLT-LI,Lithuania,LT
+1,EUROPE,14,Eastern Europe,Krym,KRY-OO,Krym,UA
+1,EUROPE,14,Eastern Europe,Central European Russia,RUC-OO,Central European Russia,RU
+1,EUROPE,14,Eastern Europe,East European Russia,RUE-OO,East European Russia,RU
+1,EUROPE,14,Eastern Europe,North European Russia,RUN-OO,North European Russia,RU
+1,EUROPE,14,Eastern Europe,South European Russia,RUS-OO,South European Russia,RU
+1,EUROPE,14,Eastern Europe,Northwest European Russia,RUW-OO,Northwest European Russia,RU
+1,EUROPE,14,Eastern Europe,Ukraine,UKR-MO,Moldova,MD
+1,EUROPE,14,Eastern Europe,Ukraine,UKR-UK,Ukraine,UA
+2,AFRICA,20,Northern Africa,Algeria,ALG-OO,Algeria,DZ
+2,AFRICA,20,Northern Africa,Egypt,EGY-OO,Egypt,EG
+2,AFRICA,20,Northern Africa,Libya,LBY-OO,Libya,LY
+2,AFRICA,20,Northern Africa,Morocco,MOR-MO,Morocco,MA
+2,AFRICA,20,Northern Africa,Tunisia,TUN-OO,Tunisia,TN
+2,AFRICA,20,Northern Africa,Western Sahara,WSA-OO,Western Sahara,EH
+2,AFRICA,21,Macaronesia,Azores,AZO-OO,Azores,PT
+2,AFRICA,21,Macaronesia,Canary Is.,CNY-OO,Canary Is.,ES
+2,AFRICA,21,Macaronesia,Cape Verde,CVI-OO,Cape Verde,CV
+2,AFRICA,21,Macaronesia,Madeira,MDR-OO,Madeira,PT
+2,AFRICA,21,Macaronesia,Selvagens,SEL-OO,Selvagens,PT
+2,AFRICA,22,West Tropical Africa,Benin,BEN-OO,Benin,BJ
+2,AFRICA,22,West Tropical Africa,Burkina,BKN-OO,Burkina,BF
+2,AFRICA,22,West Tropical Africa,Gambia,GAM-OO,Gambia,GM
+2,AFRICA,22,West Tropical Africa,Ghana,GHA-OO,Ghana,GH
+2,AFRICA,22,West Tropical Africa,Guinea-Bissau,GNB-OO,Guinea-Bissau,GW
+2,AFRICA,22,West Tropical Africa,Guinea,GUI-OO,Guinea,GN
+2,AFRICA,22,West Tropical Africa,Ivory Coast,IVO-OO,Ivory Coast,CI
+2,AFRICA,22,West Tropical Africa,Liberia,LBR-OO,Liberia,LR
+2,AFRICA,22,West Tropical Africa,Mali,MLI-OO,Mali,ML
+2,AFRICA,22,West Tropical Africa,Mauritania,MTN-OO,Mauritania,MR
+2,AFRICA,22,West Tropical Africa,Nigeria,NGA-OO,Nigeria,NG
+2,AFRICA,22,West Tropical Africa,Niger,NGR-OO,Niger,NE
+2,AFRICA,22,West Tropical Africa,Senegal,SEN-OO,Senegal,SN
+2,AFRICA,22,West Tropical Africa,Sierra Leone,SIE-OO,Sierra Leone,SL
+2,AFRICA,22,West Tropical Africa,Togo,TOG-OO,Togo,TG
+2,AFRICA,23,West-Central Tropical Africa,Burundi,BUR-OO,Burundi,BI
+2,AFRICA,23,West-Central Tropical Africa,Cabinda,CAB-OO,Cabinda,AO
+2,AFRICA,23,West-Central Tropical Africa,Central African Republic,CAF-OO,Central African Republic,CF
+2,AFRICA,23,West-Central Tropical Africa,Cameroon,CMN-OO,Cameroon,CM
+2,AFRICA,23,West-Central Tropical Africa,Congo,CON-OO,Congo,CG
+2,AFRICA,23,West-Central Tropical Africa,Equatorial Guinea,EQG-OO,Equatorial Guinea,GQ
+2,AFRICA,23,West-Central Tropical Africa,Gabon,GAB-OO,Gabon,GA
+2,AFRICA,23,West-Central Tropical Africa,Gulf of Guinea Is.,GGI-AN,Annobón,GQ
+2,AFRICA,23,West-Central Tropical Africa,Gulf of Guinea Is.,GGI-BI,Bioko,GQ
+2,AFRICA,23,West-Central Tropical Africa,Gulf of Guinea Is.,GGI-PR,Príncipe,ST
+2,AFRICA,23,West-Central Tropical Africa,Gulf of Guinea Is.,GGI-ST,São Tomé,ST
+2,AFRICA,23,West-Central Tropical Africa,Rwanda,RWA-OO,Rwanda,RW
+2,AFRICA,23,West-Central Tropical Africa,Zaïre,ZAI-OO,Zaïre,CD
+2,AFRICA,24,Northeast Tropical Africa,Chad,CHA-OO,Chad,TD
+2,AFRICA,24,Northeast Tropical Africa,Djibouti,DJI-OO,Djibouti,DJ
+2,AFRICA,24,Northeast Tropical Africa,Eritrea,ERI-OO,Eritrea,ER
+2,AFRICA,24,Northeast Tropical Africa,Ethiopia,ETH-OO,Ethiopia,ET
+2,AFRICA,24,Northeast Tropical Africa,Socotra,SOC-OO,Socotra,YE
+2,AFRICA,24,Northeast Tropical Africa,Somalia,SOM-OO,Somalia,SO
+2,AFRICA,24,Northeast Tropical Africa,Sudan,SUD-OO,Sudan,SD
+2,AFRICA,25,East Tropical Africa,Kenya,KEN-OO,Kenya,KE
+2,AFRICA,25,East Tropical Africa,Tanzania,TAN-OO,Tanzania,TZ
+2,AFRICA,25,East Tropical Africa,Uganda,UGA-OO,Uganda,UG
+2,AFRICA,26,South Tropical Africa,Angola,ANG-OO,Angola,AO
+2,AFRICA,26,South Tropical Africa,Malawi,MLW-OO,Malawi,MW
+2,AFRICA,26,South Tropical Africa,Mozambique,MOZ-OO,Mozambique,MZ
+2,AFRICA,26,South Tropical Africa,Zambia,ZAM-OO,Zambia,ZM
+2,AFRICA,26,South Tropical Africa,Zimbabwe,ZIM-OO,Zimbabwe,ZW
+2,AFRICA,27,Southern Africa,Botswana,BOT-OO,Botswana,BW
+2,AFRICA,27,Southern Africa,Cape Provinces,CPP-EC,Eastern Cape Province,ZA
+2,AFRICA,27,Southern Africa,Cape Provinces,CPP-NC,Northern Cape Province,ZA
+2,AFRICA,27,Southern Africa,Cape Provinces,CPP-WC,Western Cape Province,ZA
+2,AFRICA,27,Southern Africa,Caprivi Strip,CPV-OO,Caprivi Strip,Na
+2,AFRICA,27,Southern Africa,Lesotho,LES-OO,Lesotho,LS
+2,AFRICA,27,Southern Africa,Namibia,NAM-OO,Namibia,Na
+2,AFRICA,27,Southern Africa,KwaZulu-Natal,NAT-OO,KwaZulu-Natal,ZA
+2,AFRICA,27,Southern Africa,Free State,OFS-OO,Free State,ZA
+2,AFRICA,27,Southern Africa,Swaziland,SWZ-OO,Swaziland,SZ
+2,AFRICA,27,Southern Africa,Northern Provinces,TVL-GA,Gauteng,ZA
+2,AFRICA,27,Southern Africa,Northern Provinces,TVL-MP,Mpumalanga,ZA
+2,AFRICA,27,Southern Africa,Northern Provinces,TVL-NP,Northern Province,ZA
+2,AFRICA,27,Southern Africa,Northern Provinces,TVL-NW,North-West Province,ZA
+2,AFRICA,28,Middle Atlantic Ocean,Ascension,ASC-OO,Ascension,SH
+2,AFRICA,28,Middle Atlantic Ocean,St. Helena,STH-OO,St. Helena,SH
+2,AFRICA,29,Western Indian Ocean,Aldabra,ALD-OO,Aldabra,SC
+2,AFRICA,29,Western Indian Ocean,Chagos Archipelago,CGS-OO,Chagos Archipelago,IO
+2,AFRICA,29,Western Indian Ocean,Comoros,COM-CO,Comoros,KM
+2,AFRICA,29,Western Indian Ocean,Comoros,COM-MA,Mayotte,YT
+2,AFRICA,29,Western Indian Ocean,Mauritius,MAU-OO,Mauritius,MU
+2,AFRICA,29,Western Indian Ocean,Mozambique Channel Is.,MCI-OO,Mozambique Channel Is.,RE
+2,AFRICA,29,Western Indian Ocean,Madagascar,MDG-OO,Madagascar,MG
+2,AFRICA,29,Western Indian Ocean,Réunion,REU-OO,Réunion,RE
+2,AFRICA,29,Western Indian Ocean,Rodrigues,ROD-OO,Rodrigues,MU
+2,AFRICA,29,Western Indian Ocean,Seychelles,SEY-OO,Seychelles,SC
+3,ASIA-TEMPERATE,30,Siberia,Altay,ALT-OO,Altay,RU
+3,ASIA-TEMPERATE,30,Siberia,Buryatiya,BRY-OO,Buryatiya,RU
+3,ASIA-TEMPERATE,30,Siberia,Chita,CTA-OO,Chita,RU
+3,ASIA-TEMPERATE,30,Siberia,Irkutsk,IRK-OO,Irkutsk,RU
+3,ASIA-TEMPERATE,30,Siberia,Krasnoyarsk,KRA-OO,Krasnoyarsk,RU
+3,ASIA-TEMPERATE,30,Siberia,Tuva,TVA-OO,Tuva,RU
+3,ASIA-TEMPERATE,30,Siberia,West Siberia,WSB-OO,West Siberia,RU
+3,ASIA-TEMPERATE,30,Siberia,Yakutiya,YAK-OO,Yakutiya,RU
+3,ASIA-TEMPERATE,30,Siberia,Yakutskiya,YAK-OO,Yakutskiya,RU
+3,ASIA-TEMPERATE,31,Russian Far East,Amur,AMU-OO,Amur,RU
+3,ASIA-TEMPERATE,31,Russian Far East,Kamchatka,KAM-OO,Kamchatka,RU
+3,ASIA-TEMPERATE,31,Russian Far East,Khabarovsk,KHA-OO,Khabarovsk,RU
+3,ASIA-TEMPERATE,31,Russian Far East,Kuril Is.,KUR-OO,Kuril Is.,RU
+3,ASIA-TEMPERATE,31,Russian Far East,Magadan,MAG-OO,Magadan,RU
+3,ASIA-TEMPERATE,31,Russian Far East,Primorye,PRM-OO,Primorye,RU
+3,ASIA-TEMPERATE,31,Russian Far East,Sakhalin,SAK-OO,Sakhalin,RU
+3,ASIA-TEMPERATE,32,Middle Asia,Kazakhstan,KAZ-OO,Kazakhstan,KZ
+3,ASIA-TEMPERATE,32,Middle Asia,Kirgizstan,KGZ-OO,Kirgizstan,KG
+3,ASIA-TEMPERATE,32,Middle Asia,Turkmenistan,TKM-OO,Turkmenistan,TM
+3,ASIA-TEMPERATE,32,Middle Asia,Tadzhikistan,TZK-OO,Tadzhikistan,TJ
+3,ASIA-TEMPERATE,32,Middle Asia,Uzbekistan,UZB-OO,Uzbekistan,UZ
+3,ASIA-TEMPERATE,33,Caucasus,North Caucasus,NCS-CH,Chechnya,RU
+3,ASIA-TEMPERATE,33,Caucasus,North Caucasus,NCS-DA,Dagestan,RU
+3,ASIA-TEMPERATE,33,Caucasus,North Caucasus,NCS-IN,Ingushetiya,RU
+3,ASIA-TEMPERATE,33,Caucasus,North Caucasus,NCS-KB,Kabardino-Balkariya,RU
+3,ASIA-TEMPERATE,33,Caucasus,North Caucasus,NCS-KC,Karacheyevo-Cherkessiya,RU
+3,ASIA-TEMPERATE,33,Caucasus,North Caucasus,NCS-KR,Krasnodar,RU
+3,ASIA-TEMPERATE,33,Caucasus,North Caucasus,NCS-SO,Severo-Osetiya,RU
+3,ASIA-TEMPERATE,33,Caucasus,North Caucasus,NCS-ST,Stavropol,RU
+3,ASIA-TEMPERATE,33,Caucasus,Transcaucasus,TCS-AB,Abkhaziya,GE
+3,ASIA-TEMPERATE,33,Caucasus,Transcaucasus,TCS-AD,Adzhariya,GE
+3,ASIA-TEMPERATE,33,Caucasus,Transcaucasus,TCS-AR,Armenia,AM
+3,ASIA-TEMPERATE,33,Caucasus,Transcaucasus,TCS-AZ,Azerbaijan,AZ
+3,ASIA-TEMPERATE,33,Caucasus,Transcaucasus,TCS-GR,Gruziya,GE
+3,ASIA-TEMPERATE,33,Caucasus,Transcaucasus,TCS-NA,Nakhichevan,AZ
+3,ASIA-TEMPERATE,33,Caucasus,Transcaucasus,TCS-NK,Nagorno Karabakh,AM
+3,ASIA-TEMPERATE,34,Western Asia,Afghanistan,AFG-OO,Afghanistan,AF
+3,ASIA-TEMPERATE,34,Western Asia,Cyprus,CYP-OO,Cyprus,CY
+3,ASIA-TEMPERATE,34,Western Asia,East Aegean Is.,EAI-OO,East Aegean Is.,GR
+3,ASIA-TEMPERATE,34,Western Asia,Iran,IRN-OO,Iran,IR
+3,ASIA-TEMPERATE,34,Western Asia,Iraq,IRQ-OO,Iraq,IQ
+3,ASIA-TEMPERATE,34,Western Asia,Lebanon-Syria,LBS-LB,Lebanon,LB
+3,ASIA-TEMPERATE,34,Western Asia,Lebanon-Syria,LBS-SY,Syria,SY
+3,ASIA-TEMPERATE,34,Western Asia,Palestine,PAL-IS,Israel,IL
+3,ASIA-TEMPERATE,34,Western Asia,Palestine,PAL-JO,Jordan,JO
+3,ASIA-TEMPERATE,34,Western Asia,Sinai,SIN-OO,Sinai,EG
+3,ASIA-TEMPERATE,34,Western Asia,Turkey,TUR-OO,Turkey,TR
+3,ASIA-TEMPERATE,35,Arabian Peninsula,Gulf States,GST-BA,Bahrain,BH
+3,ASIA-TEMPERATE,35,Arabian Peninsula,Gulf States,GST-QA,Qatar,QA
+3,ASIA-TEMPERATE,35,Arabian Peninsula,Gulf States,GST-UA,United Arab Emirates,AE
+3,ASIA-TEMPERATE,35,Arabian Peninsula,Kuwait,KUW-OO,Kuwait,KW
+3,ASIA-TEMPERATE,35,Arabian Peninsula,Oman,OMA-OO,Oman,OM
+3,ASIA-TEMPERATE,35,Arabian Peninsula,Saudi Arabia,SAU-OO,Saudi Arabia,SA
+3,ASIA-TEMPERATE,35,Arabian Peninsula,Yemen,YEM-NY,North Yemen,YE
+3,ASIA-TEMPERATE,35,Arabian Peninsula,Yemen,YEM-SY,South Yemen,YE
+3,ASIA-TEMPERATE,36,China,China South-Central,CHC-CQ,Chongqing,CN
+3,ASIA-TEMPERATE,36,China,China South-Central,CHC-GZ,Guizhou,CN
+3,ASIA-TEMPERATE,36,China,China South-Central,CHC-HU,Hubei,CN
+3,ASIA-TEMPERATE,36,China,China South-Central,CHC-SC,Sichuan,CN
+3,ASIA-TEMPERATE,36,China,China South-Central,CHC-YN,Yunnan,CN
+3,ASIA-TEMPERATE,36,China,Hainan,CHH-OO,Hainan,CN
+3,ASIA-TEMPERATE,36,China,Inner Mongolia,CHI-NM,Nei Mongol,CN
+3,ASIA-TEMPERATE,36,China,Inner Mongolia,CHI-NX,Ningxia,CN
+3,ASIA-TEMPERATE,36,China,Manchuria,CHM-HJ,Heilongjiang,CN
+3,ASIA-TEMPERATE,36,China,Manchuria,CHM-JL,Jilin,CN
+3,ASIA-TEMPERATE,36,China,Manchuria,CHM-LN,Liaoning,CN
+3,ASIA-TEMPERATE,36,China,China North-Central,CHN-BJ,Beijing,CN
+3,ASIA-TEMPERATE,36,China,China North-Central,CHN-GS,Gansu,CN
+3,ASIA-TEMPERATE,36,China,China North-Central,CHN-HB,Hebei,CN
+3,ASIA-TEMPERATE,36,China,China North-Central,CHN-SA,Shaanxi,CN
+3,ASIA-TEMPERATE,36,China,China North-Central,CHN-SD,Shandong,CN
+3,ASIA-TEMPERATE,36,China,China North-Central,CHN-SX,Shanxi,CN
+3,ASIA-TEMPERATE,36,China,China North-Central,CHN-TJ,Tianjin,CN
+3,ASIA-TEMPERATE,36,China,Qinghai,CHQ-OO,Qinghai,CN
+3,ASIA-TEMPERATE,36,China,China Southeast,CHS-AH,Anhui,CN
+3,ASIA-TEMPERATE,36,China,China Southeast,CHS-FJ,Fujian,CN
+3,ASIA-TEMPERATE,36,China,China Southeast,CHS-GD,Guangdong,CN
+3,ASIA-TEMPERATE,36,China,China Southeast,CHS-GX,Guangxi,CN
+3,ASIA-TEMPERATE,36,China,China Southeast,CHS-HE,Henan,CN
+3,ASIA-TEMPERATE,36,China,China Southeast,CHS-HK,Hong Kong,CN
+3,ASIA-TEMPERATE,36,China,China Southeast,CHS-HN,Hunan,CN
+3,ASIA-TEMPERATE,36,China,China Southeast,CHS-JS,Jiangsu,CN
+3,ASIA-TEMPERATE,36,China,China Southeast,CHS-JX,Jiangxi,CN
+3,ASIA-TEMPERATE,36,China,China Southeast,CHS-KI,Kin-Men,TW
+3,ASIA-TEMPERATE,36,China,China Southeast,CHS-MA,Macau,MO
+3,ASIA-TEMPERATE,36,China,China Southeast,CHS-MP,Ma-tsu-Pai-chúan,TW
+3,ASIA-TEMPERATE,36,China,China Southeast,CHS-SH,Shanghai,CN
+3,ASIA-TEMPERATE,36,China,China Southeast,CHS-ZJ,Zhejiang,CN
+3,ASIA-TEMPERATE,36,China,Tibet,CHT-OO,Tibet,CN
+3,ASIA-TEMPERATE,36,China,Xinjiang,CHX-OO,Xinjiang,CN
+3,ASIA-TEMPERATE,37,Mongolia,Mongolia,MON-OO,Mongolia,MN
+3,ASIA-TEMPERATE,38,Eastern Asia,Japan,JAP-HK,Hokkaido,JP
+3,ASIA-TEMPERATE,38,Eastern Asia,Japan,JAP-HN,Honshu,JP
+3,ASIA-TEMPERATE,38,Eastern Asia,Japan,JAP-KY,Kyushu,JP
+3,ASIA-TEMPERATE,38,Eastern Asia,Japan,JAP-SH,Shikoku,JP
+3,ASIA-TEMPERATE,38,Eastern Asia,Korea,KOR-NK,North Korea,KP
+3,ASIA-TEMPERATE,38,Eastern Asia,Korea,KOR-SK,South Korea,KR
+3,ASIA-TEMPERATE,38,Eastern Asia,Kazan-retto,KZN-OO,Kazan-retto,JP
+3,ASIA-TEMPERATE,38,Eastern Asia,Nansei-shoto,NNS-OO,Nansei-shoto,JP
+3,ASIA-TEMPERATE,38,Eastern Asia,Ogasawara-shoto,OGA-OO,Ogasawara-shoto,JP
+3,ASIA-TEMPERATE,38,Eastern Asia,Taiwan,TAI-OO,Taiwan,TW
+4,ASIA-TROPICAL,40,Indian Subcontinent,Assam,ASS-AS,Assam,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,Assam,ASS-MA,Manipur,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,Assam,ASS-ME,Meghalaya,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,Assam,ASS-MI,Mizoram,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,Assam,ASS-NA,Nagaland,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,Assam,ASS-TR,Tripura,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,Bangladesh,BAN-OO,Bangladesh,BD
+4,ASIA-TROPICAL,40,Indian Subcontinent,East Himalaya,EHM-AP,Arunachal Pradesh,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,East Himalaya,EHM-BH,Bhutan,BT
+4,ASIA-TROPICAL,40,Indian Subcontinent,East Himalaya,EHM-DJ,Darjiling,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,East Himalaya,EHM-SI,Sikkim,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-AP,Andhra Pradesh,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-BI,Bihar,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-CH,Chandigarh,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-CT,Chattisgarh,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-DD,Dadra-Nagar-Haveli,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-DE,Delhi,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-DI,Diu,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-DM,Daman,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-GO,Goa,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-GU,Gujarat,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-HA,Haryana,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-JK,Jharkhand,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-KE,Kerala,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-KL,Karaikal,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-KT,Karnataka,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-MH,Mahé,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-MP,Madhya Pradesh,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-MR,Maharashtra,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-OR,Orissa,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-PO,Pondicherry,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-PU,Punjab,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-RA,Rajasthan,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-TN,Tamil Nadu,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-UP,Uttar Pradesh,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-WB,West Bengal,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,India,IND-YA,Yanam,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,Laccadive Is.,LDV-OO,Laccadive Is.,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,Maldives,MDV-OO,Maldives,MV
+4,ASIA-TROPICAL,40,Indian Subcontinent,Nepal,NEP-OO,Nepal,NP
+4,ASIA-TROPICAL,40,Indian Subcontinent,Pakistan,PAK-OO,Pakistan,PK
+4,ASIA-TROPICAL,40,Indian Subcontinent,Sri Lanka,SRL-OO,Sri Lanka,LK
+4,ASIA-TROPICAL,40,Indian Subcontinent,West Himalaya,WHM-HP,Himachal Pradesh,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,West Himalaya,WHM-JK,Jammu-Kashmir,IN
+4,ASIA-TROPICAL,40,Indian Subcontinent,West Himalaya,WHM-UT,Uttaranchal,IN
+4,ASIA-TROPICAL,41,Indo-China,Andaman Is.,AND-AN,Andaman Is.,IN
+4,ASIA-TROPICAL,41,Indo-China,Andaman Is.,AND-CO,Coco Is.,MM
+4,ASIA-TROPICAL,41,Indo-China,Cambodia,CBD-OO,Cambodia,KH
+4,ASIA-TROPICAL,41,Indo-China,Laos,LAO-OO,Laos,LA
+4,ASIA-TROPICAL,41,Indo-China,Myanmar,MYA-OO,Myanmar,MM
+4,ASIA-TROPICAL,41,Indo-China,Nicobar Is.,NCB-OO,Nicobar Is.,IN
+4,ASIA-TROPICAL,41,Indo-China,South China Sea,SCS-PI,Paracel Is.,CH
+4,ASIA-TROPICAL,41,Indo-China,South China Sea,SCS-SI,Spratly Is.,CH
+4,ASIA-TROPICAL,41,Indo-China,Thailand,THA-OO,Thailand,TH
+4,ASIA-TROPICAL,41,Indo-China,Vietnam,VIE-OO,Vietnam,VN
+4,ASIA-TROPICAL,42,Malesia,Borneo,BOR-BR,Brunei,BN
+4,ASIA-TROPICAL,42,Malesia,Borneo,BOR-KA,Kalimantan,ID
+4,ASIA-TROPICAL,42,Malesia,Borneo,BOR-SB,Sabah,MY
+4,ASIA-TROPICAL,42,Malesia,Borneo,BOR-SR,Sarawak,MY
+4,ASIA-TROPICAL,42,Malesia,Cocos (Keeling) Is.,CKI-OO,Cocos (Keeling) Is.,CC
+4,ASIA-TROPICAL,42,Malesia,Jawa,JAW-OO,Jawa,ID
+4,ASIA-TROPICAL,42,Malesia,Lesser Sunda Is.,LSI-BA,Bali,ID
+4,ASIA-TROPICAL,42,Malesia,Lesser Sunda Is.,LSI-ET,East Timor,TP
+4,ASIA-TROPICAL,42,Malesia,Lesser Sunda Is.,LSI-LS,Lesser Sunda Is.,ID
+4,ASIA-TROPICAL,42,Malesia,Malaya,MLY-PM,Peninsular Malaysia,MY
+4,ASIA-TROPICAL,42,Malesia,Malaya,MLY-SI,Singapore,SG
+4,ASIA-TROPICAL,42,Malesia,Maluku,MOL-OO,Maluku,ID
+4,ASIA-TROPICAL,42,Malesia,Philippines,PHI-OO,Philippines,PH
+4,ASIA-TROPICAL,42,Malesia,Sulawesi,SUL-OO,Sulawesi,ID
+4,ASIA-TROPICAL,42,Malesia,Sumatera,SUM-OO,Sumatera,ID
+4,ASIA-TROPICAL,42,Malesia,Christmas I.,XMS-OO,Christmas I.,CX
+4,ASIA-TROPICAL,43,Papuasia,Bismarck Archipelago,BIS-OO,Bismarck Archipelago,PG
+4,ASIA-TROPICAL,43,Papuasia,New Guinea,NWG-IJ,Irian Jaya,ID
+4,ASIA-TROPICAL,43,Papuasia,New Guinea,NWG-PN,Papua New Guinea,PG
+4,ASIA-TROPICAL,43,Papuasia,Solomon Is.,SOL-NO,North Solomons,PG
+4,ASIA-TROPICAL,43,Papuasia,Solomon Is.,SOL-SO,South Solomons,SB
+5,AUSTRALASIA,50,Australia,Norfolk Is.,NFK-LH,Lord Howe I.,AU
+5,AUSTRALASIA,50,Australia,Norfolk Is.,NFK-NI,Norfolk I.,NF
+5,AUSTRALASIA,50,Australia,New South Wales,NSW-CT,Australian Capital Territory,AU
+5,AUSTRALASIA,50,Australia,New South Wales,NSW-NS,New South Wales,AU
+5,AUSTRALASIA,50,Australia,Northern Territory,NTA-OO,Northern Territory,AU
+5,AUSTRALASIA,50,Australia,Queensland,QLD-CS,Coral Sea Is. Territory,AU
+5,AUSTRALASIA,50,Australia,Queensland,QLD-QU,Queensland,AU
+5,AUSTRALASIA,50,Australia,South Australia,SOA-OO,South Australia,AU
+5,AUSTRALASIA,50,Australia,Tasmania,TAS-OO,Tasmania,AU
+5,AUSTRALASIA,50,Australia,Victoria,VIC-OO,Victoria,AU
+5,AUSTRALASIA,50,Australia,Western Australia,WAU-AC,Ashmore-Cartier Is.,AU
+5,AUSTRALASIA,50,Australia,Western Australia,WAU-WA,Western Australia,AU
+5,AUSTRALASIA,51,New Zealand,Antipodean Is.,ATP-OO,Antipodean Is.,NZ
+5,AUSTRALASIA,51,New Zealand,Chatham Is.,CTM-OO,Chatham Is.,NZ
+5,AUSTRALASIA,51,New Zealand,Kermadec Is.,KER-OO,Kermadec Is.,NZ
+5,AUSTRALASIA,51,New Zealand,New Zealand North,NZN-OO,New Zealand North,NZ
+5,AUSTRALASIA,51,New Zealand,New Zealand South,NZS-OO,New Zealand South,NZ
+6,PACIFIC,60,Southwestern Pacific,Fiji,FIJ-OO,Fiji,FJ
+6,PACIFIC,60,Southwestern Pacific,Gilbert Is.,GIL-OO,Gilbert Is.,KI
+6,PACIFIC,60,Southwestern Pacific,Howland-Baker Is.,HBI-OO,Howland-Baker Is.,UM
+6,PACIFIC,60,Southwestern Pacific,Nauru,NRU-OO,Nauru,NR
+6,PACIFIC,60,Southwestern Pacific,Niue,NUE-OO,Niue,NU
+6,PACIFIC,60,Southwestern Pacific,New Caledonia,NWC-OO,New Caledonia,NC
+6,PACIFIC,60,Southwestern Pacific,Phoenix Is.,PHX-OO,Phoenix Is.,KI
+6,PACIFIC,60,Southwestern Pacific,Samoa,SAM-AS,American Samoa,AS
+6,PACIFIC,60,Southwestern Pacific,Samoa,SAM-WS,Samoa,WS
+6,PACIFIC,60,Southwestern Pacific,Santa Cruz Is.,SCZ-OO,Santa Cruz Is.,SB
+6,PACIFIC,60,Southwestern Pacific,Tokelau-Manihiki,TOK-MA,Manihiki Is.,CK
+6,PACIFIC,60,Southwestern Pacific,Tokelau-Manihiki,TOK-SW,Swains I.,AS
+6,PACIFIC,60,Southwestern Pacific,Tokelau-Manihiki,TOK-TO,Tokelau,TK
+6,PACIFIC,60,Southwestern Pacific,Tonga,TON-OO,Tonga,TO
+6,PACIFIC,60,Southwestern Pacific,Tuvalu,TUV-OO,Tuvalu,TV
+6,PACIFIC,60,Southwestern Pacific,Vanuatu,VAN-OO,Vanuatu,VU
+6,PACIFIC,60,Southwestern Pacific,Wallis-Futuna Is.,WAL-OO,Wallis-Futuna Is.,WF
+6,PACIFIC,61,South-Central Pacific,Cook Is.,COO-OO,Cook Is.,CK
+6,PACIFIC,61,South-Central Pacific,Easter Is.,EAS-OO,Easter Is.,CL
+6,PACIFIC,61,South-Central Pacific,Line Is.,LIN-KI,Kiribati Line Is.,KI
+6,PACIFIC,61,South-Central Pacific,Line Is.,LIN-US,U.S. Line Is.,UM
+6,PACIFIC,61,South-Central Pacific,Marquesas,MRQ-OO,Marquesas,PF
+6,PACIFIC,61,South-Central Pacific,Pitcairn Is.,PIT-OO,Pitcairn Is.,PN
+6,PACIFIC,61,South-Central Pacific,Society Is.,SCI-OO,Society Is.,PF
+6,PACIFIC,61,South-Central Pacific,Tuamotu,TUA-OO,Tuamotu,PF
+6,PACIFIC,61,South-Central Pacific,Tubuai Is.,TUB-OO,Tubuai Is.,PF
+6,PACIFIC,62,Northwestern Pacific,Caroline Is.,CRL-MF,Micronesia Federated States,FM
+6,PACIFIC,62,Northwestern Pacific,Caroline Is.,CRL-PA,Palau,PW
+6,PACIFIC,62,Northwestern Pacific,Marcus I.,MCS-OO,Marcus I.,JP
+6,PACIFIC,62,Northwestern Pacific,Marianas,MRN-GU,Guam,GU
+6,PACIFIC,62,Northwestern Pacific,Marianas,MRN-NM,Northern Marianas,MP
+6,PACIFIC,62,Northwestern Pacific,Marshall Is.,MRS-OO,Marshall Is.,MH
+6,PACIFIC,62,Northwestern Pacific,Wake I.,WAK-OO,Wake I.,UM
+6,PACIFIC,63,North-Central Pacific,Hawaii,HAW-HI,Hawaiian Is.,US
+6,PACIFIC,63,North-Central Pacific,Hawaii,HAW-JI,Johnston I.,UM
+6,PACIFIC,63,North-Central Pacific,Hawaii,HAW-MI,Midway Is.,UM
+7,NORTHERN AMERICA,70,Subarctic America,Aleutian Is.,ALU-OO,Aleutian Is.,US
+7,NORTHERN AMERICA,70,Subarctic America,Alaska,ASK-OO,Alaska,US
+7,NORTHERN AMERICA,70,Subarctic America,Greenland,GNL-OO,Greenland,GL
+7,NORTHERN AMERICA,70,Subarctic America,Nunavut,NUN-OO,Nunavut,CA
+7,NORTHERN AMERICA,70,Subarctic America,Northwest Territories,NWT-OO,Northwest Territories,CA
+7,NORTHERN AMERICA,70,Subarctic America,Yukon,YUK-OO,Yukon,CA
+7,NORTHERN AMERICA,71,Western Canada,Alberta,ABT-OO,Alberta,CA
+7,NORTHERN AMERICA,71,Western Canada,British Columbia,BRC-OO,British Columbia,CA
+7,NORTHERN AMERICA,71,Western Canada,Manitoba,MAN-OO,Manitoba,CA
+7,NORTHERN AMERICA,71,Western Canada,Saskatchewan,SAS-OO,Saskatchewan,CA
+7,NORTHERN AMERICA,72,Eastern Canada,Labrador,LAB-OO,Labrador,CA
+7,NORTHERN AMERICA,72,Eastern Canada,New Brunswick,NBR-OO,New Brunswick,CA
+7,NORTHERN AMERICA,72,Eastern Canada,Newfoundland,NFL-NE,Newfoundland,CA
+7,NORTHERN AMERICA,72,Eastern Canada,Newfoundland,NFL-SP,St. Pierre-Miquelon,PM
+7,NORTHERN AMERICA,72,Eastern Canada,Nova Scotia,NSC-OO,Nova Scotia,CA
+7,NORTHERN AMERICA,72,Eastern Canada,Ontario,ONT-OO,Ontario,CA
+7,NORTHERN AMERICA,72,Eastern Canada,Prince Edward I.,PEI-OO,Prince Edward I.,CA
+7,NORTHERN AMERICA,72,Eastern Canada,Québec,QUE-OO,Québec,CA
+7,NORTHERN AMERICA,73,Northwestern U.S.A.,Colorado,COL-OO,Colorado,US
+7,NORTHERN AMERICA,73,Northwestern U.S.A.,Idaho,IDA-OO,Idaho,US
+7,NORTHERN AMERICA,73,Northwestern U.S.A.,Montana,MNT-OO,Montana,US
+7,NORTHERN AMERICA,73,Northwestern U.S.A.,Oregon,ORE-OO,Oregon,US
+7,NORTHERN AMERICA,73,Northwestern U.S.A.,Washington,WAS-OO,Washington,US
+7,NORTHERN AMERICA,73,Northwestern U.S.A.,Wyoming,WYO-OO,Wyoming,US
+7,NORTHERN AMERICA,74,North-Central U.S.A.,Illinois,ILL-OO,Illinois,US
+7,NORTHERN AMERICA,74,North-Central U.S.A.,Iowa,IOW-OO,Iowa,US
+7,NORTHERN AMERICA,74,North-Central U.S.A.,Kansas,KAN-OO,Kansas,US
+7,NORTHERN AMERICA,74,North-Central U.S.A.,Minnesota,MIN-OO,Minnesota,US
+7,NORTHERN AMERICA,74,North-Central U.S.A.,Missouri,MSO-OO,Missouri,US
+7,NORTHERN AMERICA,74,North-Central U.S.A.,North Dakota,NDA-OO,North Dakota,US
+7,NORTHERN AMERICA,74,North-Central U.S.A.,Nebraska,NEB-OO,Nebraska,US
+7,NORTHERN AMERICA,74,North-Central U.S.A.,Oklahoma,OKL-OO,Oklahoma,US
+7,NORTHERN AMERICA,74,North-Central U.S.A.,South Dakota,SDA-OO,South Dakota,US
+7,NORTHERN AMERICA,74,North-Central U.S.A.,Wisconsin,WIS-OO,Wisconsin,US
+7,NORTHERN AMERICA,75,Northeastern U.S.A.,Connecticut,CNT-OO,Connecticut,US
+7,NORTHERN AMERICA,75,Northeastern U.S.A.,Indiana,INI-OO,Indiana,US
+7,NORTHERN AMERICA,75,Northeastern U.S.A.,Maine,MAI-OO,Maine,US
+7,NORTHERN AMERICA,75,Northeastern U.S.A.,Massachusetts,MAS-OO,Massachusetts,US
+7,NORTHERN AMERICA,75,Northeastern U.S.A.,Michigan,MIC-OO,Michigan,US
+7,NORTHERN AMERICA,75,Northeastern U.S.A.,New Hampshire,NWH-OO,New Hampshire,US
+7,NORTHERN AMERICA,75,Northeastern U.S.A.,New Jersey,NWJ-OO,New Jersey,US
+7,NORTHERN AMERICA,75,Northeastern U.S.A.,New York,NWY-OO,New York,US
+7,NORTHERN AMERICA,75,Northeastern U.S.A.,Ohio,OHI-OO,Ohio,US
+7,NORTHERN AMERICA,75,Northeastern U.S.A.,Pennsylvania,PEN-OO,Pennsylvania,US
+7,NORTHERN AMERICA,75,Northeastern U.S.A.,Rhode Island,RHO-OO,Rhode Island,US
+7,NORTHERN AMERICA,75,Northeastern U.S.A.,Vermont,VER-OO,Vermont,US
+7,NORTHERN AMERICA,75,Northeastern U.S.A.,West Virginia,WVA-OO,West Virginia,US
+7,NORTHERN AMERICA,76,Southwestern U.S.A.,Arizona,ARI-OO,Arizona,US
+7,NORTHERN AMERICA,76,Southwestern U.S.A.,California,CAL-OO,California,US
+7,NORTHERN AMERICA,76,Southwestern U.S.A.,Nevada,NEV-OO,Nevada,US
+7,NORTHERN AMERICA,76,Southwestern U.S.A.,Utah,UTA-OO,Utah,US
+7,NORTHERN AMERICA,77,South-Central U.S.A.,New Mexico,NWM-OO,New Mexico,US
+7,NORTHERN AMERICA,77,South-Central U.S.A.,Texas,TEX-OO,Texas,US
+7,NORTHERN AMERICA,78,Southeastern U.S.A.,Alabama,ALA-OO,Alabama,US
+7,NORTHERN AMERICA,78,Southeastern U.S.A.,Arkansas,ARK-OO,Arkansas,US
+7,NORTHERN AMERICA,78,Southeastern U.S.A.,Delaware,DEL-OO,Delaware,US
+7,NORTHERN AMERICA,78,Southeastern U.S.A.,Florida,FLA-OO,Florida,US
+7,NORTHERN AMERICA,78,Southeastern U.S.A.,Georgia,GEO-OO,Georgia,US
+7,NORTHERN AMERICA,78,Southeastern U.S.A.,Kentucky,KTY-OO,Kentucky,US
+7,NORTHERN AMERICA,78,Southeastern U.S.A.,Louisiana,LOU-OO,Louisiana,US
+7,NORTHERN AMERICA,78,Southeastern U.S.A.,Maryland,MRY-OO,Maryland,US
+7,NORTHERN AMERICA,78,Southeastern U.S.A.,Mississippi,MSI-OO,Mississippi,US
+7,NORTHERN AMERICA,78,Southeastern U.S.A.,North Carolina,NCA-OO,North Carolina,US
+7,NORTHERN AMERICA,78,Southeastern U.S.A.,South Carolina,SCA-OO,South Carolina,US
+7,NORTHERN AMERICA,78,Southeastern U.S.A.,Tennessee,TEN-OO,Tennessee,US
+7,NORTHERN AMERICA,78,Southeastern U.S.A.,Virginia,VRG-OO,Virginia,US
+7,NORTHERN AMERICA,78,Southeastern U.S.A.,District of Columbia,WDC-OO,District of Columbia,US
+7,NORTHERN AMERICA,79,Mexico,Mexico Central,MXC-DF,México Distrito Federal,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Central,MXC-ME,México State,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Central,MXC-MO,Morelos,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Central,MXC-PU,Puebla,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Central,MXC-TL,Tlaxcala,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Northeast,MXE-AG,Aguascalientes,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Northeast,MXE-CO,Coahuila,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Northeast,MXE-CU,Chihuahua,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Northeast,MXE-DU,Durango,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Northeast,MXE-GU,Guanajuato,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Northeast,MXE-HI,Hidalgo,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Northeast,MXE-NL,Nuevo León,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Northeast,MXE-QU,Querétaro,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Northeast,MXE-SL,San Luis Potosí,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Northeast,MXE-TA,Tamaulipas,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Northeast,MXE-ZA,Zacatecas,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Gulf,MXG-VC,Veracruz,MX
+7,NORTHERN AMERICA,79,Mexico,Mexican Pacific Is.,MXI-GU,Guadalupe I.,MX
+7,NORTHERN AMERICA,79,Mexico,Mexican Pacific Is.,MXI-RA,Rocas Alijos,MX
+7,NORTHERN AMERICA,79,Mexico,Mexican Pacific Is.,MXI-RG,Revillagigedo Is.,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Northwest,MXN-BC,Baja California,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Northwest,MXN-BS,Baja California Sur,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Northwest,MXN-SI,Sinaloa,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Northwest,MXN-SO,Sonora,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Southwest,MXS-CL,Colima,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Southwest,MXS-GR,Guerrero,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Southwest,MXS-JA,Jalisco,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Southwest,MXS-MI,Michoacán,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Southwest,MXS-NA,Nayarit,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Southwest,MXS-OA,Oaxaca,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Southeast,MXT-CA,Campeche,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Southeast,MXT-CI,Chiapas,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Southeast,MXT-QR,Quintana Roo,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Southeast,MXT-TB,Tabasco,MX
+7,NORTHERN AMERICA,79,Mexico,Mexico Southeast,MXT-YU,Yucatán,MX
+8,SOUTHERN AMERICA,80,Central America,Belize,BLZ-OO,Belize,BZ
+8,SOUTHERN AMERICA,80,Central America,Costa Rica,COS-OO,Costa Rica,CR
+8,SOUTHERN AMERICA,80,Central America,Central American Pacific Is.,CPI-CL,Clipperton I.,PF
+8,SOUTHERN AMERICA,80,Central America,Central American Pacific Is.,CPI-CO,Cocos I.,CR
+8,SOUTHERN AMERICA,80,Central America,Central American Pacific Is.,CPI-MA,Malpelo I.,CO
+8,SOUTHERN AMERICA,80,Central America,El Salvador,ELS-OO,El Salvador,SV
+8,SOUTHERN AMERICA,80,Central America,Guatemala,GUA-OO,Guatemala,GT
+8,SOUTHERN AMERICA,80,Central America,Honduras,HON-OO,Honduras,HN
+8,SOUTHERN AMERICA,80,Central America,Nicaragua,NIC-OO,Nicaragua,NI
+8,SOUTHERN AMERICA,80,Central America,Panama,PAN-OO,Panama,PA
+8,SOUTHERN AMERICA,81,Caribbean,Aruba,ARU-OO,Aruba,AW
+8,SOUTHERN AMERICA,81,Caribbean,Bahamas,BAH-OO,Bahamas,BS
+8,SOUTHERN AMERICA,81,Caribbean,Bermuda,BER-OO,Bermuda,BM
+8,SOUTHERN AMERICA,81,Caribbean,Cayman Is.,CAY-OO,Cayman Is.,KY
+8,SOUTHERN AMERICA,81,Caribbean,Cuba,CUB-OO,Cuba,CU
+8,SOUTHERN AMERICA,81,Caribbean,Dominican Republic,DOM-OO,Dominican Republic,DO
+8,SOUTHERN AMERICA,81,Caribbean,Haiti,HAI-HA,Haiti,HT
+8,SOUTHERN AMERICA,81,Caribbean,Haiti,HAI-NI,Navassa I.,PR
+8,SOUTHERN AMERICA,81,Caribbean,Jamaica,JAM-OO,Jamaica,JM
+8,SOUTHERN AMERICA,81,Caribbean,Leeward Is.,LEE-AB,Antigua-Barbuda,AG
+8,SOUTHERN AMERICA,81,Caribbean,Leeward Is.,LEE-AG,Anguilla,AI
+8,SOUTHERN AMERICA,81,Caribbean,Leeward Is.,LEE-AV,Aves I.,VE
+8,SOUTHERN AMERICA,81,Caribbean,Leeward Is.,LEE-BV,British Virgin Is.,VG
+8,SOUTHERN AMERICA,81,Caribbean,Leeward Is.,LEE-GU,Guadeloupe,GP
+8,SOUTHERN AMERICA,81,Caribbean,Leeward Is.,LEE-MO,Montserrat,MS
+8,SOUTHERN AMERICA,81,Caribbean,Leeward Is.,LEE-NL,Netherlands Leeward Is.,GP
+8,SOUTHERN AMERICA,81,Caribbean,Leeward Is.,LEE-SK,St. Kitts-Nevis,KN
+8,SOUTHERN AMERICA,81,Caribbean,Leeward Is.,LEE-SM,St. Martin-St. Barthélémy,GP
+8,SOUTHERN AMERICA,81,Caribbean,Leeward Is.,LEE-VI,Virgin Is.,VI
+8,SOUTHERN AMERICA,81,Caribbean,Netherlands Antilles,NLA-BO,Bonaire,BQ
+8,SOUTHERN AMERICA,81,Caribbean,Netherlands Antilles,NLA-CU,Curaçao,CW
+8,SOUTHERN AMERICA,81,Caribbean,Puerto Rico,PUE-OO,Puerto Rico,PR
+8,SOUTHERN AMERICA,81,Caribbean,Southwest Caribbean,SWC-CC,Colombian Caribbean Is.,CO
+8,SOUTHERN AMERICA,81,Caribbean,Southwest Caribbean,SWC-HC,Honduran Caribbean Is.,HN
+8,SOUTHERN AMERICA,81,Caribbean,Southwest Caribbean,SWC-NC,Nicaraguan Caribbean Is.,NI
+8,SOUTHERN AMERICA,81,Caribbean,Turks-Caicos Is.,TCI-OO,Turks-Caicos Is.,TC
+8,SOUTHERN AMERICA,81,Caribbean,Trinidad-Tobago,TRT-OO,Trinidad-Tobago,TT
+8,SOUTHERN AMERICA,81,Caribbean,Venezuelan Antilles,VNA-OO,Venezuelan Antilles,VE
+8,SOUTHERN AMERICA,81,Caribbean,Windward Is.,WIN-BA,Barbados,BB
+8,SOUTHERN AMERICA,81,Caribbean,Windward Is.,WIN-DO,Dominica,DM
+8,SOUTHERN AMERICA,81,Caribbean,Windward Is.,WIN-GR,Grenada,GD
+8,SOUTHERN AMERICA,81,Caribbean,Windward Is.,WIN-MA,Martinique,MQ
+8,SOUTHERN AMERICA,81,Caribbean,Windward Is.,WIN-SL,St. Lucia,LC
+8,SOUTHERN AMERICA,81,Caribbean,Windward Is.,WIN-SV,St. Vincent,VC
+8,SOUTHERN AMERICA,82,Northern South America,French Guiana,FRG-OO,French Guiana,GF
+8,SOUTHERN AMERICA,82,Northern South America,Guyana,GUY-OO,Guyana,GY
+8,SOUTHERN AMERICA,82,Northern South America,Suriname,SUR-OO,Suriname,SR
+8,SOUTHERN AMERICA,82,Northern South America,Venezuela,VEN-OO,Venezuela,VE
+8,SOUTHERN AMERICA,83,Western South America,Bolivia,BOL-OO,Bolivia,BO
+8,SOUTHERN AMERICA,83,Western South America,Colombia,CLM-OO,Colombia,CO
+8,SOUTHERN AMERICA,83,Western South America,Ecuador,ECU-OO,Ecuador,EC
+8,SOUTHERN AMERICA,83,Western South America,Galápagos,GAL-OO,Galápagos,EC
+8,SOUTHERN AMERICA,83,Western South America,Peru,PER-OO,Peru,PE
+8,SOUTHERN AMERICA,84,Brazil,Brazil West-Central,BZC-DF,Brasília Distrito Federal,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil West-Central,BZC-GO,Goiás,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil West-Central,BZC-MS,Mato Grosso do Sul,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil West-Central,BZC-MT,Mato Grosso,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil Northeast,BZE-AL,Alagoas,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil Northeast,BZE-BA,Bahia,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil Northeast,BZE-CE,Ceará,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil Northeast,BZE-FN,Fernando de Noronha,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil Northeast,BZE-MA,Maranhão,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil Northeast,BZE-PB,Paraíba,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil Northeast,BZE-PE,Pernambuco,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil Northeast,BZE-PI,Piauí,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil Northeast,BZE-RN,Rio Grande do Norte,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil Northeast,BZE-SE,Sergipe,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil Southeast,BZL-ES,Espírito Santo,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil Southeast,BZL-MG,Minas Gerais,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil Southeast,BZL-RJ,Rio de Janeiro,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil Southeast,BZL-SP,São Paulo,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil Southeast,BZL-TR,Trindade,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil North,BZN-AC,Acre,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil North,BZN-AM,Amazonas,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil North,BZN-AP,Amapá,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil North,BZN-PA,Pará,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil North,BZN-RM,Roraima,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil North,BZN-RO,Rondônia,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil North,BZN-TO,Tocantins,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil South,BZS-PR,Paraná,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil South,BZS-RS,Rio Grande do Sul,BR
+8,SOUTHERN AMERICA,84,Brazil,Brazil South,BZS-SC,Santa Catarina,BR
+8,SOUTHERN AMERICA,85,Southern South America,Argentina Northeast,AGE-BA,Buenos Aires,AR
+8,SOUTHERN AMERICA,85,Southern South America,Argentina Northeast,AGE-CO,Córdoba,AR
+8,SOUTHERN AMERICA,85,Southern South America,Argentina Northeast,AGE-CH,Chaco,AR
+8,SOUTHERN AMERICA,85,Southern South America,Argentina Northeast,AGE-DF,Argentina Distrito Federal,AR
+8,SOUTHERN AMERICA,85,Southern South America,Argentina Northeast,AGE-ER,Entre Ríos,AR
+8,SOUTHERN AMERICA,85,Southern South America,Argentina Northeast,AGE-CN,Corrientes,AR
+8,SOUTHERN AMERICA,85,Southern South America,Argentina Northeast,AGE-FO,Formosa,AR
+8,SOUTHERN AMERICA,85,Southern South America,Argentina Northeast,AGE-LP,La Pampa,AR
+8,SOUTHERN AMERICA,85,Southern South America,Argentina Northeast,AGE-MI,Misiones,AR
+8,SOUTHERN AMERICA,85,Southern South America,Argentina Northeast,AGE-SF,Santa Fé,AR
+8,SOUTHERN AMERICA,85,Southern South America,Argentina South,AGS-CB,Chubut,AR
+8,SOUTHERN AMERICA,85,Southern South America,Argentina South,AGS-NE,Neuquén,AR
+8,SOUTHERN AMERICA,85,Southern South America,Argentina South,AGS-TF,Tierra del Fuego (Argentina),AR
+8,SOUTHERN AMERICA,85,Southern South America,Argentina South,AGS-RN,Rio Negro,AR
+8,SOUTHERN AMERICA,85,Southern South America,Argentina South,AGS-SC,Santa Cruz,AR
+8,SOUTHERN AMERICA,85,Southern South America,Argentina Northwest,AGW-CA,Catamarca,AR
+8,SOUTHERN AMERICA,85,Southern South America,Argentina Northwest,AGW-JU,Jujuy,AR
+8,SOUTHERN AMERICA,85,Southern South America,Argentina Northwest,AGW-LR,La Rioja,AR
+8,SOUTHERN AMERICA,85,Southern South America,Argentina Northwest,AGW-ME,Mendoza,AR
+8,SOUTHERN AMERICA,85,Southern South America,Argentina Northwest,AGW-SA,Salta,AR
+8,SOUTHERN AMERICA,85,Southern South America,Argentina Northwest,AGW-SE,Santiago del Estero,AR
+8,SOUTHERN AMERICA,85,Southern South America,Argentina Northwest,AGW-SJ,San Juan,AR
+8,SOUTHERN AMERICA,85,Southern South America,Argentina Northwest,AGW-SL,San Luis,AR
+8,SOUTHERN AMERICA,85,Southern South America,Argentina Northwest,AGW-TU,Tucumán,AR
+8,SOUTHERN AMERICA,85,Southern South America,Chile Central,CLC-CO,Coquimbo,CL
+8,SOUTHERN AMERICA,85,Southern South America,Chile Central,CLC-BI,Biobío,CL
+8,SOUTHERN AMERICA,85,Southern South America,Chile Central,CLC-LA,La Araucania,CL
+8,SOUTHERN AMERICA,85,Southern South America,Chile Central,CLC-MA,Maule,CL
+8,SOUTHERN AMERICA,85,Southern South America,Chile Central,CLC-OH,O’Higgins,CL
+8,SOUTHERN AMERICA,85,Southern South America,Chile Central,CLC-SA,Santiago,CL
+8,SOUTHERN AMERICA,85,Southern South America,Chile Central,CLC-VA,Valparaíso,CL
+8,SOUTHERN AMERICA,85,Southern South America,Chile North,CLN-AN,Antofagasta,CL
+8,SOUTHERN AMERICA,85,Southern South America,Chile North,CLN-AT,Atacama,CL
+8,SOUTHERN AMERICA,85,Southern South America,Chile North,CLN-TA,Tarapacá,CL
+8,SOUTHERN AMERICA,85,Southern South America,Chile South,CLS-AI,Aisén,CL
+8,SOUTHERN AMERICA,85,Southern South America,Chile South,CLS-LL,Los Lagos,CL
+8,SOUTHERN AMERICA,85,Southern South America,Chile South,CLS-MG,Magellanes,CL
+8,SOUTHERN AMERICA,85,Southern South America,Desventurados Is.,DSV-OO,Desventurados Is.,CL
+8,SOUTHERN AMERICA,85,Southern South America,JuanFernándezIs.,JNF-OO,JuanFernándezIs.,CL
+8,SOUTHERN AMERICA,85,Southern South America,Paraguay,PAR-OO,Paraguay,PY
+8,SOUTHERN AMERICA,85,Southern South America,Uruguay,URU-OO,Uruguay,UY
+9,ANTARCTIC,90,Subantarctic Islands,Amsterdam-St. Paul Is.,ASP-OO,Amsterdam-St. Paul Is.,TF
+9,ANTARCTIC,90,Subantarctic Islands,Bouvet I.,BOU-OO,Bouvet I.,BV
+9,ANTARCTIC,90,Subantarctic Islands,Crozet Is.,CRZ-OO,Crozet Is.,TF
+9,ANTARCTIC,90,Subantarctic Islands,Falkland Is.,FAL-OO,Falkland Is.,FK
+9,ANTARCTIC,90,Subantarctic Islands,Heard-McDonald Is.,HMD-OO,Heard-McDonald Is.,HM
+9,ANTARCTIC,90,Subantarctic Islands,Kerguelen,KEG-OO,Kerguelen,TF
+9,ANTARCTIC,90,Subantarctic Islands,Macquarie Is.,MAQ-OO,Macquarie Is.,AU
+9,ANTARCTIC,90,Subantarctic Islands,Marion-Prince Edward Is.,MPE-OO,Marion-Prince Edward Is.,ZA
+9,ANTARCTIC,90,Subantarctic Islands,South Georgia,SGE-OO,South Georgia,GS
+9,ANTARCTIC,90,Subantarctic Islands,South Sandwich Is.,SSA-OO,South Sandwich Is.,GS
+9,ANTARCTIC,90,Subantarctic Islands,Tristan da Cunha,TDC-OO,Tristan da Cunha,SH
+9,ANTARCTIC,91,Antarctic Continent,Antarctica,ANT-OO,Antarctica,AQ
