@@ -199,3 +199,4 @@ wgsrpd<-pow_wgsrpd("Fraxinus excelsior", type="Introduced")
 # one of: "Continent", "Continent code", "Sub continent", "Sub continent code",
 # "Region", "isocode5", "Country", "isocode2"
 wgsrpd_conversion(wgsrpd, format="isocode2")
+
