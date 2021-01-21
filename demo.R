@@ -14,8 +14,8 @@ pow_wgsrpd <-function(species, type){
     
     ppow_data<-pow_lookup(ppow[1])
     suppressWarnings(url<-html(paste("http://plantsoftheworldonline.org/taxon/",ppow[1],sep="")))
-    
-    selector.type<-"#distribution-listing > h4:nth-child(1)"
+  
+    selector.type<-"#distribution-listing > h3:nth-child(1)"
     fype<-html_nodes(x=url, css=selector.type) %>%
       html_text(trim=TRUE)
     if((length(grep(tolower(type),tolower(fype)))>0)){
@@ -24,7 +24,7 @@ pow_wgsrpd <-function(species, type){
       fnames<-html_nodes(x=url, css=selector.name) %>%
         html_text(trim=TRUE)
     } else { 
-      selector.type<-"#distribution-listing > h4:nth-child(3)"
+      selector.type<-"#distribution-listing > h3:nth-child(3)"
       fype<-html_nodes(x=url, css=selector.type) %>%
         html_text(trim=TRUE)
       if((length(grep(tolower(type),tolower(fype)))>0)){
@@ -32,7 +32,8 @@ pow_wgsrpd <-function(species, type){
         
         fnames<-html_nodes(x=url, css=selector.name) %>%
           html_text(trim=TRUE)
-      } else { selector.type<-"#distribution-listing > h4:nth-child(5)"
+      } else { 
+        selector.type<-"#distribution-listing > h3:nth-child(5)"
       fype<-html_nodes(x=url, css=selector.type) %>%
         html_text(trim=TRUE)
       if((length(grep(tolower(type),tolower(fype)))>0)){
@@ -56,7 +57,7 @@ pow_wgsrpd <-function(species, type){
       if(length(fnames)>0){
         for (t in 1:length(fnames)) {
           
-          if (fnames[t]=="Panamá"){
+          if (fnames[t]=="Panam?"){
             fnames[t]<-"Panama"
             
           }
@@ -88,7 +89,7 @@ wgsrpd_conversion <-function(wgsrpd_regions, format){
   if(length(wgsrpd_regions)>0){
     for (t in 1:length(wgsrpd_regions)) {
       
-      if (wgsrpd_regions[t]=="Panamá"){
+      if (wgsrpd_regions[t]=="Panam?"){
         wgsrpd_regions[t]<-"Panama"
       }
     }
