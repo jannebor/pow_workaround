@@ -3,18 +3,37 @@
 library(stringr)
 library(taxize)
 library(rvest)
+library(raster)
+setwd("C:/Users/janbor/Desktop/OneDrive - NTNU/Data")
+## required files:
+t_scheme4 <- shapefile("wgsrpd-master/wgsrpd-master/level4/level4.shp")
+t_scheme4 <- spTransform(t_scheme4,CRS("+proj=longlat +datum=WGS84"))
 
 #species name
 #type one of "Native", "Introduced", "Uncertain"
-pow_wgsrpd <-function(species, type){
+pow_wgsrpd <- function(species, type){
+  ppow <- NULL
   
-  ppow<-get_pow(species, accepted = TRUE, rows = 1, messages=FALSE)
+  while(length(ppow)<1){
+    t0<-proc.time()
+    tryCatch({
+      ppow<-get_pow(species, accepted = TRUE, rows = 1, messages=FALSE)
+      }, error=function(e){cat("ERROR :",conditionMessage(e), "\n")})
+    
+    Sys.sleep(2)
+    t<-t0-proc.time()
+    
+    if(abs(t[3])>30){
+      break
+    }
+    
+    }
   
   if(!is.na(ppow[1])){
     
     ppow_data<-pow_lookup(ppow[1])
     suppressWarnings(url<-html(paste("http://plantsoftheworldonline.org/taxon/",ppow[1],sep="")))
-  
+    
     selector.type<-"#distribution-listing > h3:nth-child(1)"
     fype<-html_nodes(x=url, css=selector.type) %>%
       html_text(trim=TRUE)
@@ -23,7 +42,7 @@ pow_wgsrpd <-function(species, type){
       
       fnames<-html_nodes(x=url, css=selector.name) %>%
         html_text(trim=TRUE)
-    } else { 
+    } else {
       selector.type<-"#distribution-listing > h3:nth-child(3)"
       fype<-html_nodes(x=url, css=selector.type) %>%
         html_text(trim=TRUE)
@@ -32,13 +51,12 @@ pow_wgsrpd <-function(species, type){
         
         fnames<-html_nodes(x=url, css=selector.name) %>%
           html_text(trim=TRUE)
-      } else { 
-        selector.type<-"#distribution-listing > h3:nth-child(5)"
+      } else { selector.type<-"#distribution-listing > h3:nth-child(5)"
       fype<-html_nodes(x=url, css=selector.type) %>%
         html_text(trim=TRUE)
       if((length(grep(tolower(type),tolower(fype)))>0)){
         selector.name<-"#distribution-listing > p:nth-child(6)"
-        
+      
         fnames<-html_nodes(x=url, css=selector.name) %>%
           html_text(trim=TRUE)
       }
@@ -50,6 +68,7 @@ pow_wgsrpd <-function(species, type){
       
       #distribution-listing > p:nth-child(2)
       fnames<-gsub("\n","", fnames)
+      fnames<-gsub("\r","", fnames)
       fnames<-gsub(" ","", fnames)
       fnames<-str_split(fnames, pattern=",")
       fnames<-unlist(fnames)
@@ -57,7 +76,7 @@ pow_wgsrpd <-function(species, type){
       if(length(fnames)>0){
         for (t in 1:length(fnames)) {
           
-          if (fnames[t]=="Panam?"){
+          if (fnames[t]=="Panam???"){
             fnames[t]<-"Panama"
             
           }
@@ -76,10 +95,7 @@ pow_wgsrpd <-function(species, type){
     }
   }
 }
-
-
 ###
-
 # takes the output of pow_wgsrpd as input
 # format defines to destination format during conversion:
 # one of: "Continent", "Continent code", "Sub continent", "Sub continent code",
@@ -89,7 +105,7 @@ wgsrpd_conversion <-function(wgsrpd_regions, format){
   if(length(wgsrpd_regions)>0){
     for (t in 1:length(wgsrpd_regions)) {
       
-      if (wgsrpd_regions[t]=="Panam?"){
+      if (wgsrpd_regions[t]=="Panam???"){
         wgsrpd_regions[t]<-"Panama"
       }
     }
@@ -190,14 +206,52 @@ wgsrpd_conversion <-function(wgsrpd_regions, format){
   }
 }
 
+#############################################################################
+
+
+
+
+
 
 
 #####
 #type needs to be one one of "Native", "Introduced", "Uncertain"
-wgsrpd<-pow_wgsrpd("Fraxinus excelsior", type="Introduced")
+wgsrpd <- pow_wgsrpd("Ranunculus glacialis", type="Native")
 
 # taking the output of pow_wgsrpd as input as well as a country format:
 # one of: "Continent", "Continent code", "Sub continent", "Sub continent code",
 # "Region", "isocode5", "Country", "isocode2"
-wgsrpd_conversion(wgsrpd, format="isocode2")
+countrylist <- wgsrpd_conversion(wgsrpd, format="isocode5")
+
+library(rgeos)
+t_sub<-NULL
+for(i in 1:length(countrylist)){
+  if(length(t_sub)==0){
+    t_sub <- subset(t_scheme4, t_scheme4$Level4_cod==countrylist[i])
+    t_sub <- aggregate(t_sub)
+  } else {
+    t_add <- subset(t_scheme4, t_scheme4$Level4_cod==countrylist[i])
+    t_add <- aggregate(t_add)
+    t_sub <- gUnion(t_add, t_sub)
+  }
+}
+
+library(rgbif)
+ppow <- get_pow("Ranunculus glacialis", accepted = TRUE, rows = 1, messages=FALSE)
+ppow_data <- pow_lookup(ppow[1])
+key <- name_backbone(name=paste(ppow_data$meta$name))$usageKey
+occ <- occ_search(taxonKey=key, geometry=c(bbox(t_sub)), year="1000,2021", fields="all", hasCoordinate = T, hasGeospatialIssue = F,limit=100)
+occ_points <- data.frame(x=occ$data$decimalLongitude,y=occ$data$decimalLatitude)
+
+#convert to spatial points data frame
+occ_points <- SpatialPointsDataFrame(occ_points, occ$data, proj4string=CRS("+proj=longlat +datum=WGS84"))
+
+#remove points outside the original polygon
+t_sub <- spTransform(t_sub,CRS("+proj=longlat +datum=WGS84"))
+library(sp)
+occ_points <- occ_points[!is.na(sp::over(occ_points, sp::geometry(t_sub))), ] 
+
+library(mapview)
+mapview(t_sub)+
+  mapview(occ_points)
 
