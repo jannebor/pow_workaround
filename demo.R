@@ -65,7 +65,6 @@ pow_wgsrpd <- function(species, type){
     
     if(length(fnames)>0){
       
-      
       #distribution-listing > p:nth-child(2)
       fnames<-gsub("\n","", fnames)
       fnames<-gsub("\r","", fnames)
