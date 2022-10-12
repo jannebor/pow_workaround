@@ -4,7 +4,7 @@ library(stringr)
 library(taxize)
 library(rvest)
 library(raster)
-setwd("C:/Users/janbor/Desktop/OneDrive - NTNU/Data")
+
 ## required files:
 t_scheme4 <- shapefile("wgsrpd-master/wgsrpd-master/level4/level4.shp")
 t_scheme4 <- spTransform(t_scheme4,CRS("+proj=longlat +datum=WGS84"))
@@ -13,6 +13,7 @@ t_scheme4 <- spTransform(t_scheme4,CRS("+proj=longlat +datum=WGS84"))
 #type one of "Native", "Introduced", "Uncertain"
 pow_wgsrpd <- function(species, type){
   ppow <- NULL
+  fnames <- NULL
   
   while(length(ppow)<1){
     t0<-proc.time()
@@ -32,7 +33,7 @@ pow_wgsrpd <- function(species, type){
   if(!is.na(ppow[1])){
     
     ppow_data<-pow_lookup(ppow[1])
-    suppressWarnings(url<-html(paste("http://plantsoftheworldonline.org/taxon/",ppow[1],sep="")))
+    suppressWarnings(url<-read_html(paste("http://plantsoftheworldonline.org/taxon/",ppow[1],sep="")))
     
     selector.type<-"#distribution-listing > h3:nth-child(1)"
     fype<-html_nodes(x=url, css=selector.type) %>%
@@ -91,6 +92,8 @@ pow_wgsrpd <- function(species, type){
         return(fnames)
         
       }
+    } else {
+      message(paste("no regions reported as", type))
     }
   }
 }
@@ -216,6 +219,9 @@ wgsrpd_conversion <-function(wgsrpd_regions, format){
 #####
 #type needs to be one one of "Native", "Introduced", "Uncertain"
 wgsrpd <- pow_wgsrpd("Ranunculus glacialis", type="Native")
+
+wgsrpd <- pow_wgsrpd("Ranunculus glacialis", type="Introduced")
+
 
 # taking the output of pow_wgsrpd as input as well as a country format:
 # one of: "Continent", "Continent code", "Sub continent", "Sub continent code",
