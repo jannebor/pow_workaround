@@ -11,11 +11,11 @@ wgsrpd_conversion <-function(wgsrpd_regions, format){
   if(length(wgsrpd_regions)>0){
     for (t in 1:length(wgsrpd_regions)) {
       
-      if (wgsrpd_regions[t]=="Panamá"){
+      if (wgsrpd_regions[t]=="Panam???"){
         wgsrpd_regions[t]<-"Panama"
       }
     }
-  
+    
     tdwg<-read.csv("https://raw.githubusercontent.com/jannebor/supporting_files/master/tdwg.csv")
     tdwg$ISO<-as.character(tdwg$ISO)
     
@@ -106,7 +106,7 @@ wgsrpd_conversion <-function(wgsrpd_regions, format){
       country_list<-unique(sub_df$ISO)
     }
     
-
+    
     return(country_list)
     
   }
