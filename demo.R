@@ -211,52 +211,14 @@ wgsrpd_conversion <-function(wgsrpd_regions, format){
 #############################################################################
 
 
-
-
-
-
-
 #####
 #type needs to be one one of "Native", "Introduced", "Uncertain"
-wgsrpd <- pow_wgsrpd("Ranunculus glacialis", type="Native")
-
 wgsrpd <- pow_wgsrpd("Ranunculus glacialis", type="Introduced")
+
+wgsrpd <- pow_wgsrpd("Ranunculus glacialis", type="Native")
 
 
 # taking the output of pow_wgsrpd as input as well as a country format:
 # one of: "Continent", "Continent code", "Sub continent", "Sub continent code",
 # "Region", "isocode5", "Country", "isocode2"
 countrylist <- wgsrpd_conversion(wgsrpd, format="isocode5")
-
-library(rgeos)
-t_sub<-NULL
-for(i in 1:length(countrylist)){
-  if(length(t_sub)==0){
-    t_sub <- subset(t_scheme4, t_scheme4$Level4_cod==countrylist[i])
-    t_sub <- aggregate(t_sub)
-  } else {
-    t_add <- subset(t_scheme4, t_scheme4$Level4_cod==countrylist[i])
-    t_add <- aggregate(t_add)
-    t_sub <- gUnion(t_add, t_sub)
-  }
-}
-
-library(rgbif)
-ppow <- get_pow("Ranunculus glacialis", accepted = TRUE, rows = 1, messages=FALSE)
-ppow_data <- pow_lookup(ppow[1])
-key <- name_backbone(name=paste(ppow_data$meta$name))$usageKey
-occ <- occ_search(taxonKey=key, geometry=c(bbox(t_sub)), year="1000,2021", fields="all", hasCoordinate = T, hasGeospatialIssue = F,limit=100)
-occ_points <- data.frame(x=occ$data$decimalLongitude,y=occ$data$decimalLatitude)
-
-#convert to spatial points data frame
-occ_points <- SpatialPointsDataFrame(occ_points, occ$data, proj4string=CRS("+proj=longlat +datum=WGS84"))
-
-#remove points outside the original polygon
-t_sub <- spTransform(t_sub,CRS("+proj=longlat +datum=WGS84"))
-library(sp)
-occ_points <- occ_points[!is.na(sp::over(occ_points, sp::geometry(t_sub))), ] 
-
-library(mapview)
-mapview(t_sub)+
-  mapview(occ_points)
-
