@@ -106,7 +106,6 @@ wgsrpd_conversion <-function(wgsrpd_regions, format){
       country_list<-unique(sub_df$ISO)
     }
     
-    
     return(country_list)
     
   }
